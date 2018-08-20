@@ -1,7 +1,6 @@
 body {
     background-color: #f0f4f5;
     font-family: 'Fjalla One', sans-serif;
-    font-family: 
 }
 .top-bar-inner ul{
     padding: 0;
@@ -11,6 +10,10 @@ body {
     list-style: none;
     background-color: #111d29;
     color: rgb(52, 57, 78);
+    text-align: right;
+}
+.demo-link{
+    text-align: left;
 }
 .top-bar li {
     display: inline;
@@ -27,6 +30,7 @@ body {
 }
 .main-menu {
     list-style: none;
+    text-align: right;
 }
 .main-menu ul li{
     background-color: #111d29;
@@ -43,14 +47,16 @@ body {
 }
 .logo{
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .top3 p{
     color: #8f9396;
     font-family: Arial, Helvetica, sans-serif;
 }
-.top3 h3{
+.top3 h2{
     color:#1d2933;
+    font-size: 54px;
+    margin:20px 0;
 }
 .top3 a{
     list-style: none;
@@ -93,11 +99,10 @@ body {
 }
 .copyright-inner {
     margin: 0;
-    width: 100vw;
 }
 .copyright-inner ul{
-    padding: 0;
-    margin: 0;
+    padding: 30px;
+    margin: 20px;
 }
 .copyright-inner ul a {
     display: block;
@@ -106,7 +111,8 @@ body {
     background-color: #091014;
 }
 .copyright a{
-    text-decoration: none;
     background-color: #091014;
-    color:#4b5257;
+}
+.copyright p{
+    color:#50575c;
 }
